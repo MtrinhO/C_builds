@@ -23,7 +23,6 @@ int candidate_count;
 
 // Function prototypes
 bool vote(string name);
-void print_winner(void);
 void mergesort(int left_start, int right_end);
 void merger(int left_start, int midpoint, int right_end);
 
