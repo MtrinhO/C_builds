@@ -9,7 +9,7 @@ int main(int argc, string text[])
      int letters = 0;
      int words = 0;
      int sentences = 0;
-    // (1): Count letters, words, sentences, Output original text
+    // (1): Count letters, words, sentences, return original text
     printf("Text: ");
     for(int i=1; i<argc; i++)
     {
@@ -56,11 +56,11 @@ int main(int argc, string text[])
 
     if(index>15)
     {
-        printf("Grade16+ \n");
+        printf("Post-secondary English \n");
     }
     else if(index<1)
     {
-        printf("Before Grade 1 \n");
+        printf("Preschool or Kindergarten \n");
     }
     else
     {
