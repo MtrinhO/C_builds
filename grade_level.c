@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
+#include <cs50.h>
 
 int main(int argc, string text[])
 {
