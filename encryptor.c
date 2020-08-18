@@ -28,7 +28,7 @@ int main(int argc, string key[])
         }
     }
 
-    //(1c): Key validation for non-alphabetic chars, length != 26 chars:
+    //(1c): Key validation for: non-alphabetic chars, length != 26 chars:
     for (int x=0; x<27; x++)
     {
         if(ispunct(key[1][x])!=0 || isdigit(key[1][x])!=0)
