@@ -6,7 +6,7 @@ int main(void)
     //Input float cc number
     long cc = get_long("Enter CC number: ");
 
-    //Negative number filter
+    //Filters negative inputs
     if(cc<0)
     {
         printf("INVALID\n");
