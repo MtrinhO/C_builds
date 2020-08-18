@@ -20,7 +20,6 @@ int collatz(int n)
             return 1 + collatz(n/2);
         }
     }
-
 //Input number, return number of steps
 int main(void)
 {
