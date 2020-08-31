@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
             fwrite(buffer, FAT, 1, jpg);
             recovered_jpgs++;
         }
-        //Else if n jpeg (n!=1), close previous jpeg and write
+        //Else if n jpeg (n!=1), close previous jpeg --> write
         else if (buffer[0]==0xff && buffer[1]==0xd8 && buffer[2]==0xff && ((buffer[3] & 0xf0)==0xe0))
         {
             fclose(jpg);
